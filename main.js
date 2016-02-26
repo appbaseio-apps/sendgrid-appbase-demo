@@ -28,6 +28,8 @@ $(document).ready(function() {
             console.log(error);
         });
 
+        $('.container').html('<h2 class="notification"> The data has been inserted into Appbase and webhook for sending mail through sendgrid has been fired</h2>')
+
         // stop the form from submitting the normal way and refreshing the page
         event.preventDefault();
     })

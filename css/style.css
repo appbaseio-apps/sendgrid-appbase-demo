@@ -263,3 +263,6 @@ input[type=submit]:active {
   width: 50%;
   font-size: 14px;
 }
+.notification{
+  padding:20px;
+}
